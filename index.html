@@ -146,15 +146,49 @@
 
         </section>
         
-        <section id="contact">
+        <section id="contact" class="section-container contact-container">
+
+            <article class="contact-info">
+                <h2>Entre em contato </h2>
+                <p> Sinta-se à vontade para entrar em contato comigo! </p>
+
+                <div class="social-container">
+                    <a href="#" target="_blank" class="social-icon" aria-label="Linkedin">
+                        <img src="./assets/icons/social/linkedin.svg" alt="Link para o Linkedin">
+                    </a>
+                    <a href="#" target="_blank" class="social-icon" aria-label="Github">
+                        <img src="./assets/icons/social/github (1).svg" alt="Link para o Github">
+                    </a>
+                </div>
+            </article>
+
+            <form id="formulario">
+                
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" placeholder="Digite seu nome completo">
+                <span id="erro-nome"></span>
+                
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text" placeholder="Digite seu email">
+                <span id="erro-email"></span>
+                
+                <label for="assunto">Assunto</label>
+                <input id="assunto" name="assunto" type="text" placeholder="Digite o assunto da mensagem">
+                <span id="erro-nome"></span>
+                
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem aqui..."></textarea>
+
+                <button class="botao" type="submit">Enviar Mensagem</button>
+            
+            </form>
 
         </section>
 
     </main>
 
     <footer>
-
-
+        Desenvolvido por Larissa de Souza - 2026
     </footer>
     
 </body>
