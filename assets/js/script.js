@@ -27,14 +27,16 @@ async function getAboutGithub() {
             <article class="about-content">
                 <h2>Sobre mim</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate illum asperiores deleniti, quod quos porro aperiam eius 
-                    minima accusantium, sunt quas saepe commodi laudantium qui esse. Dicta laborum nostrum eum sint totam repellat, ipsum illum 
-                    quibusdam architecto asperiores incidunt placeat ex, id enim, accusamus laboriosam! Reiciendis laboriosam voluptatem culpa possimus.
+                    Desenvolvedora Full Stack em formação, com graduação em Design pela Universidade Federal de 
+                    Pernambuco (UFPE) e experiência profissional em Design Gráfico e Design de Interfaces Digitais (UI). Em transição de carreira 
+                    para Desenvolvimento Web, aplicando conhecimentos de usabilidade, experiência do usuário e interface no 
+                    desenvolvimento <br> de soluções digitais. Possuo perfil curioso, organizado e colaborativo, com facilidade de 
+                    aprendizado, boa comunicação e foco na resolução de problemas.
                 </p>
 
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore tempore neque beatae voluptas impedit tenetur id dolor modi odio, 
-                    velit numquam doloremque consequuntur dolore, odit quam deserunt dignissimos incidunt iste?
+                    Habilidades Técnicas: <br> HTML | CSS | JavaScript | TypeScript | React | Tailwind | NodeJs | NestJS | MySQL | Git <br> | GitHub 
+                    | Lógica de Programação | Programação Orientada a Objetos  
                 </p>
 
                 <div class="about-buttons-data">
@@ -77,10 +79,10 @@ async function getProjectsGithub(){
         //Cores e ícones das linguagens
         const linguagens = {
             'JavaScript': { icone: 'javascript' },
-            'TypeScript': { icone: 'typescript '},
+            'TypeScript': { icone: 'typescript'},
             'Java': { icone: 'java' },
-            'HTML': { icone: 'html'},
-            'CSS': { icone: 'css'},
+            'HTML': { icone: 'html' },
+            'CSS': { icone: 'css' },
         };
 
         repositorios.forEach(repositorio => {

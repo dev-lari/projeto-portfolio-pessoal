@@ -106,8 +106,8 @@ main{
 }
 
 .botao{
-    border-color: var(--purple-500);
-    background-color: var(--purple-500);
+    border-color: var(--purple-600);
+    background-color: var(--purple-600);
     color: var(--white);
 }
 
@@ -252,7 +252,7 @@ header a:hover{
     align-items: center;
     gap: var(--spacing-2xl);
     margin: var(--spacing-2xl) auto;
-    border: 2px solid var(--purple-600);
+    border: 0.20rem solid var(--purple-600);
     border-radius: var(--radius-lg);
     background-color: transparent var(--purple-200); 
 }
@@ -263,7 +263,7 @@ header a:hover{
 
 .about-image img {
     width: 100%;
-    border: 0.35rem solid var(--purple-500);
+    border: 0.20rem solid var(--purple-600);
     border-radius: var(--radius-full);
     box-shadow: var(--shadow-lg);
 }
@@ -272,7 +272,7 @@ header a:hover{
     margin-bottom: var(--shadow-md);
     font-size: var(--text-3xl);
     font-weight: 700;
-    color: var(--whiteice);
+    color: var(--purple-600);
 }
 
 .about-content h2 {
@@ -285,7 +285,7 @@ header a:hover{
 
 .about-content p {
     margin-bottom: var(--spacing-sm);
-    text-align: justify;
+    text-align: left;
     color: var(--whiteice);
 }
 
@@ -317,7 +317,7 @@ header a:hover{
     font-size: var(--text-xl);
     font-weight: 700;
     text-align: center;
-    color: var(--purple-500);
+    color: var(--purple-600);
 }
 
 .data-label {
@@ -331,7 +331,7 @@ header a:hover{
     margin: var(--spacing-2xl) auto;
     text-align: center;
 
-    background-color: var(--purple-600);
+    /* background-color: var(--purple-600); */
 }
 
 .projects-swiper {
@@ -348,7 +348,7 @@ header a:hover{
     height: 100%;
     border: 0.15rem solid var(--gray-200);
     border-radius: var(--radius-lg);
-    background-color: var(--white);
+    background-color: var(--whiteice);
     box-shadow: var(--shadow-sm);
     overflow: hidden;
     transition: var(--transition-default);
@@ -384,17 +384,18 @@ header a:hover{
     text-align: left;
 }
 
-.projects-content h3 {
+.projects-container h3 {
     margin-bottom: 0.75rem;
     font-size: var(--text-lg);
     font-weight: 700;
+    color: var(--purple-600);
 }
 
-.projects-content p {
+.projects-container p {
     flex: 1;
     margin-bottom: var(--spacing-sm);
     font-size: 0.95rem;
-    color: var(--gray-400);
+    color: var(--background);
 }
 
 .project-tags { 
@@ -473,7 +474,7 @@ header a:hover{
 
 .social-container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: var(--spacing-xl);
 }
 
@@ -487,19 +488,19 @@ header a:hover{
 
 .social-icon img {
     width: 100%;
-    filter: brightness(0) saturate(100%);
+    filter: brightness(100) saturate(100%);
     transition: filter 0.3s ease;
 }
 
 .social-icon:hover img {
-    filter: brightness(0)
-            saturate(100%)
-            invert(42%)
-            sepia(93%)
-            saturate(1352%)
-            hue-rotate(243deg)
-            brightness(79%)
-            contrast(91%);
+    filter: brightness(0) 
+            saturate(100%) 
+            invert(18%) 
+            sepia(68%) 
+            saturate(5437%) 
+            hue-rotate(228deg) 
+            brightness(91%) 
+            contrast(97%)
 }
 
 form {
@@ -516,7 +517,7 @@ form label {
 form input, form textarea {
     width: 100%;
     padding: 0.5rem var(--spacing-sm);
-    border: 0.25rem solid var(--radius-md);
+    border: 10rem solid var(--radius-md);
     font-family: inherit;
     font-size: var(--text-base);
     transition: border-color 0.3s ease;
@@ -543,7 +544,7 @@ footer{
     background: linear-gradient(to right, var(--purple-500), var(--purple-800));
     font-weight: 600;
     text-align: center;
-    color: var(--white);
+    color: var(--whiteice);
 }
 
 .sucess-container {
@@ -568,12 +569,12 @@ footer{
 .sucess-content h1 {
     font-size: var(--text-3xl);
     font-weight: 700;
-    color: var(--purple-800);
+    color: var(--purple-600);
 }
 
 .sucess content h2 {
     font-size: var(--text-lg);
-    color: var(--gray-400);
+    color: var(--whiteice);
 }
 
 .sucess-icon {
@@ -588,14 +589,14 @@ footer{
 .sucess-icon img {
     width: 6rem;
     height: 6rem;
-    filter: brightness(0)
-            saturate(100%)
-            invert(11%)
-            sepia(69%)
-            saturate(3759%)
-            hue-rotate(256deg)
-            brightness(101%)
-            contrast(96%);
+    filter: brightness(0) 
+            saturate(100%) 
+            invert(18%) 
+            sepia(68%) 
+            saturate(5437%) 
+            hue-rotate(228deg) 
+            brightness(91%) 
+            contrast(97%)
 }
 
 @media screen and (max-width: 1024px){
